@@ -10,8 +10,12 @@ An up-to-date 3DS homebrew application that lets you use your Nintendo 3DS as a 
 - Battery level indicator
 - LCD toggle option to save battery
 
-## Why Create This?
-[A similar application](https://github.com/CTurt/3DSController) exists but is no longer maintained or functional.
+## Q&A
+Q: Why Create this?
+- A: [A similar application](https://github.com/CTurt/3DSController) exists but is no longer maintained or functional.
+
+Q: Why is linux so much more complicated to setup?
+- A: i honestly don't fucking know. i'm not the person to ask.
 
 [![wakatime](https://wakatime.com/badge/user/5089f166-a996-455c-8cbe-f75a0e2076db.svg)](https://wakatime.com/@5089f166-a996-455c-8cbe-f75a0e2076db)
 
@@ -109,7 +113,7 @@ An up-to-date 3DS homebrew application that lets you use your Nintendo 3DS as a 
 - Windows: ViGEmBus driver
 - Linux: uinput module and headers
 
-# Building 3DS Application
+# Building 3DS Application (not that you care lol)
 
 1. Install DevkitPro with 3DS support
    ```
@@ -184,13 +188,7 @@ An up-to-date 3DS homebrew application that lets you use your Nintendo 3DS as a 
 
 # Project Status
 
-### Completed
-- [x] Fixed false "connected" status when no server is running
-- [x] Implemented connection status checking
-- [x] Added battery level indicator
-- [x] Added customizable button for turning off LCD
-
-### Pending
+### TO-DO
 - [ ] Add ability to save multiple server configurations
 - [ ] Add multiple device connections for local multiplayer
 - [ ] Re-add keyboard/touchscreen support like CTurt's 3ds Controller had.
